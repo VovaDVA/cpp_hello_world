@@ -51,7 +51,7 @@ pipeline{
                 sshPublisher(
                              publishers: [
                                  sshPublisherDesc(
-                                     configName: "Deploy",
+                                     configName: "UbuntuServer",
                                      transfers: [
                                         sshTransfer(sourceFiles: "${params.FILE_NAME}")
                                      ]
